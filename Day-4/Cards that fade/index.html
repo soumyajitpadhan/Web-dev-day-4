@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards that fade</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        h1 {
+            text-align: center;
+            color: #B43684;
+        }
+
+        body>div {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        div>div>div {
+            width: 150px;
+            height: 200px;
+        }
+
+        div>div {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        div>div>div:nth-child(1) {
+            background-color: #FBFB98;
+            border: 3px solid yellow;
+        }
+
+        div>div>div:nth-child(2) {
+            background-color: #FBC8FC;
+            border: 3px solid rgb(234, 182, 234);
+        }
+
+        div>div>div:nth-child(3) {
+            background-color: #FA4848;
+            border: 3px solid red;
+        }
+
+        div>div>div:nth-child(4) {
+            background-color: #008500;
+            border: 3px solid #03C503;
+        }
+
+        div>div>div:hover {
+            opacity: 1;
+        }
+
+        div>div>div:not(:hover) {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>CARDS</h1>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</body>
+
+</html>
