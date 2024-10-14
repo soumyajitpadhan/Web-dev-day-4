@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter, sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+/* Banner section */
+
+.top-banner {
+    gap: 15px;
+    padding: 10px;
+    background-color: #FEDFE5;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-banner p {
+    font-weight: bold;
+    font-size: 18px;
+    color: #363333;
+}
+
+.top-banner button {
+    padding: 11px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #ED0331;
+    color: white;
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+/* Navnar section */
+.nav-section {
+    border: 1px solid rgb(238, 238, 238);
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.nav-section img {
+    width: 100px;
+    cursor: pointer;
+}
+
+#list-items ul {
+    list-style: none;
+    gap: 30px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(17, 17, 17);
+}
+
+#list-items ul li:nth-child(5) {
+    color: red;
+}
+
+#res-btn {
+    gap: 10px;
+}
+
+#res-btn button {
+    padding: 12px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#res-btn button:nth-child(1) {
+    border: none;
+    background-color: #E5FEFF;
+    color: #727bd9;
+}
+
+#res-btn button:nth-child(2) {
+    border: 1px solid red;
+    background-color: white;
+    color: red;
+}
+
+/* Hero section */
+.hero-section {
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.left {
+    flex-direction: column;
+    width: 500px;
+    height: 250px;
+    justify-content: space-around;
+}
+
+.left h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #6E71CC;
+}
+
+.left h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.left button {
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #ED0331;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.right iframe {
+    border-radius: 15px;
+    border: 1px solid rgb(231, 228, 228);
+}
+
+/* Last section */
+.last {
+    height: 165px;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #3470E4;
+    gap: 30px;
+}
+
+.last h2 {
+    font-size: 34px;
+    font-weight: 700;
+    color: white;
+}
+
+.last h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
